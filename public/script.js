@@ -322,8 +322,8 @@ function processFinalTranscript(transcript) {
     }
     
     // Show thinking animation while processing
-    setEmotion('thinking');
-    transcriptText.textContent = 'Processing...';
+    // setEmotion('thinking');
+    // transcriptText.textContent = 'Processing...';
     
     // Cancel any ongoing speech
     if (speaking) {
